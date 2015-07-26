@@ -1,0 +1,61 @@
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".Login"
+    android:columnCount="4"
+    android:rowCount="12"
+    android:clickable="false"
+    android:id="@+id/login">
+
+    <Button android:text="@string/menu1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_gravity="start|top"
+        android:layout_row="0"
+        android:clickable="true"
+        android:enabled="true"
+        android:id="@+id/MenuButton1" />
+
+    <Button android:text="@string/menu2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="1"
+        android:layout_row="0"
+        android:clickable="true"
+        android:enabled="true"
+        android:id="@+id/MenuButton2" />
+
+    <Button android:text="@string/menu3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="2"
+        android:layout_row="0"
+        android:clickable="true"
+        android:enabled="true" />
+
+    <Button android:text="@string/menu4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="3"
+        android:layout_row="0"
+        android:clickable="true"
+        android:enabled="true" />
+
+
+    <TextView android:text="@string/material"
+        android:layout_columnSpan="2"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:textColor="#ff000000"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_row="2"
+        android:id="@+id/material" />
+
+</GridLayout>

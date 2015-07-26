@@ -10,4 +10,6 @@
     <string name="menu4">Material</string>
     <string name="welcome">Welcome, user!</string>
     <string name="login">Login</string>
+    <string name="logout">Logout</string>
+    <string name="material">Material</string>
 </resources>
